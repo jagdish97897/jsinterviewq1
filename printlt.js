@@ -4,7 +4,7 @@
 
 
 function myFunction(str) {
-    return str.slice(-3);
+    return str.slice(0,-3);
 }
 result=myFunction("jagdish")
 console.log(result)
